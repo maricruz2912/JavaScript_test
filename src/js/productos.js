@@ -1,4 +1,4 @@
-// Arreglos de los productos (tazas)
+// Arreglos de los productos (cubos)
 let productos= [
     {
         "Nombre": "Producto_1",
