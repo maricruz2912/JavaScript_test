@@ -1,0 +1,96 @@
+@import url("./../CSS/main.css");
+
+
+*,*::before, *::after{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+     
+}
+
+body{
+    padding: 0;
+    margin: 0;
+   
+   
+}
+
+.contenedor_calc {
+    display: grid;
+    padding-top: 80px;
+    justify-content: center;
+    align-content: center;
+    min-height: 10px;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: minmax(120px,auto) repeat(5,100px);
+    
+}
+
+.contenedor_calc > button{
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid white;
+    outline: none;
+   /* background-color: aliceblue;*/
+   background-color:rgba( 0, 132, 255, 0.352);
+   
+
+}
+
+.contenedor_calc > button:hover{
+    background-color: rgba(255,255,255,.9);
+}
+
+.espacio_2{
+    grid-column: span 2;
+}
+
+.salida{
+    grid-column: 1/-1 ;
+    background-color: gray;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.salida .op_previas{
+  color: black;
+  font-size: 40px;
+}
+
+.salida .op_actuales{
+    color: white;
+    font-size: 30px;
+    
+}
+
+
+
+/*Resposive de tablet*/
+@media screen and (max-width:800px) { 
+    
+    
+
+    
+}
+
+/*MOBILE*/
+@media screen and (max-width: 600px){
+    .contenedor_calc {
+        
+        padding-top: 30px;
+        justify-content: center;
+        align-content: center;
+        min-height: 10px;
+        grid-template-columns: repeat(4,50px);
+        grid-template-rows: minmax(120px,auto) repeat(5,50px);
+        
+    }
+ }
+
+
+ /*NAV NAR*/

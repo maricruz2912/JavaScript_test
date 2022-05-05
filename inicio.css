@@ -1,0 +1,87 @@
+
+/* G E N E R A L */
+:root{
+    --font_base: "Roboto", sans-serif;
+    ---blanco:white;
+    --gris_obscuro:grey;
+    --cafe_claro:brown;
+}
+
+
+/* N A V B A R */
+.navbar{
+    background-color: var(---blanco) ;
+    display: flex;
+    justify-content: center;
+  
+  }
+.contactanos{
+    font-size: 22px;
+}
+ #logo{
+     margin-left: 50px;
+ }
+ .form-inline{
+     margin-left: 20px;
+ }
+ .collapse{
+    margin-left: 50px;
+ }
+
+
+
+ .nav-link{
+     color: black;
+ }
+
+ .text{
+     color: black;
+ }
+
+ /*a.nav-link.dropdown-toggle.btn.boton_inicio::after{
+     display: none;
+ }
+*/
+
+/*Resposive de tablet*/
+@media screen and (max-width:800px) { 
+    
+    #logo{
+        margin-left: 30px;
+    }
+    
+
+    
+}
+
+/*MOBILE*/
+@media screen and (max-width: 600px){
+    .hamburguesa{
+        order: 1;
+        margin-right:50px;
+        
+        
+    }
+    #logo{
+        display: none;
+    }
+
+    .contactanos{
+        font-size: 15px;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: baseline;
+    }
+   .navbar-toggler{
+       background-color: rgba(0, 132, 255, 0.352);
+   }
+    
+ }
+
+
+ /*NAV NAR*/
