@@ -1,0 +1,29 @@
+/* Estilos generales */
+@import url("./../CSS/main.css");
+
+.container{
+    width: 85%;
+    max-width: 1000px;  
+    margin: 0 auto;  
+}
+
+.container h1{
+    font-size: 30px;
+    padding-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
